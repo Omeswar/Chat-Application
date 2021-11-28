@@ -84,7 +84,7 @@ function outputUsers(users) {
 document.getElementById('leave-btn').addEventListener('click', () => {
   const leaveRoom = confirm('Do you want to leave this chatroom? The messages you entered will no longer able to see you. Are you sure to exit from room ?');
   if (leaveRoom) {
-    window.location = '../index.html';
+    window.location = '../home.html';
   } else {
   }
 });
